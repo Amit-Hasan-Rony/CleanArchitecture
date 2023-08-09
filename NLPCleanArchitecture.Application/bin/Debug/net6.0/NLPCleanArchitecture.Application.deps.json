@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NLPCleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "NLPWithCleanArhitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NLPCleanArchitecture.Application.dll": {}
+        }
+      },
+      "NLPWithCleanArhitecture.Domain/1.0.0": {
+        "runtime": {
+          "NLPWithCleanArhitecture.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NLPCleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLPWithCleanArhitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
