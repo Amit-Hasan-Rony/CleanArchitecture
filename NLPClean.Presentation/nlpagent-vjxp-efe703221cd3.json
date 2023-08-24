@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nlpagent-vjxp",
+  "private_key_id": "efe703221cd3c571a4e82fab87e063517dda70dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7oUGmss5YpbDg\nAuZ/9X3E5Fx0viWX/UFN6dqwKiWYxx06c8VQSRlM8MbiGTCaTmfzs/8tquREO8ST\nUj1IVqOVNQiwMaZGO3KIT3zeEyPwigZQMzAd+fjDpvdT03C6VXTsu72nc8ituunT\nxe6+M1PAEiylnqr9w0WOSIizTSWzXPUp5SWneTLX6Ihxszi2iq1WyJcq8GP1iMHr\nlsI5AVjDlHJqkGhNhqU+T3+8EMleUpGmadrpNkD5NfB4yE98t9+idDBYIBAsT4TZ\nt9NQbRlatQrg4PmBWO1+6tQ1hCTreQ+SSNoPwRcPXHHUCiUmtieSSgkcsCp1ntEL\narWq1jTHAgMBAAECggEAAqV6ZjdL1w71f8R/RsjljnDgHmP75nj4MAs2Isc9Z4N0\nlblmudaqrQt+6qAv5oVDlfCVoU5WGgZGEbq7JYvWJPdk4lWY8Efwg0D1ePr1s+Gd\nWeU7gQHggv8WGBleJiqo05mtbnog8vnHbPIq0IWG86lbrSMyIhJJ8Dfir2woyApV\nWr79Kdi0LyG+NnJTA7y1OjuJvZl79pSE2k+r0PYFvMn5Zs5c4IZ7deT2onpBt/3i\n/v6S0DwhQ+V3Pf9oC4Ro6lH568EYccZMlRJlkDZe5jjFNZGb/yAI8ZMibY6WkW+7\nNjMU8zq8KXk7UCNtXDcB1OkQofgzmh+G74L2hO9uFQKBgQDcEUPSS4XLZmadDBN3\nFULZYIWbk7iXIEXxWUmLMtLQToSnthqNJAP2Pm1cJZG7dtrLY6HspPc4Z+NM8I99\nCQqaJfz7Y3Q7ruQPQtpv+DkDkimKLN8gVX3g5m0RitAnJK10akarXzhdZqHW3m9U\nhgURHhRWJzRkaEBEFGVAPvL1HQKBgQDaRB1xl5xaur2+eosTNs+kTblOjugUqexi\ntZEDLaHjAzdsAnKAc+P5z1vy9cbyiTyCvOqGAjqzf1YVAyVxj4DCuOPxChIltiqd\nHC6djYPBlcHDq6ZqzSt74QzS3+mV/i5vmHKfM/lvHyyHtTT1Fhh5zXmyrCNJz1Yl\nkrHj/e7gMwKBgFBikhaH9bhlkEf/eEDAaGnE4ykAHaY+aK4PQljxWKY0eCpWz34M\n0NGq3gGRy5jhgmxW2Xf6jj9xW0roeFFg8xl5lN4y5utCKBYXAnlx/0l5o2jQmTRT\nZia3pNGKlhwmPqHOjD/fCVS8v5MgLyR9y+4DwcPykCW5GviDRrTgCZlVAoGBAMJU\njxqJ8A3f4fxrwtOSo4EYKnrFReDQAcVI/xmjUVV7kaa67xNrG3lZo/ZH2aArjBKi\n/PPfnEAgiZYfvQDE0dGNKHV9j/a/oGVNqDtiugJrwZ7jf0Hr9mFPWEmQTrrbGqEF\nTFhuwBCt4snZDpN/3r7jsQzhsnGPBpZha70gY8R9AoGBAKI0ouVv7ZzToaxqKW9A\nKrCkDbw8cXa5zQU9w68o8z6ClSJAFP9WoyfolZcXbO3wiQHDW39YNa/WPA7uaSjJ\n2Bliw9G/pRWtz8fNn8ogpHGQaibIAGQ8jCpRFSSddJKHagrhiA6kikTC29u7u6IY\nl7T0RMdAp8r9a2MLhPToJ0tw\n-----END PRIVATE KEY-----\n",
+  "client_email": "nlpagentchatbot@nlpagent-vjxp.iam.gserviceaccount.com",
+  "client_id": "104783387132133779271",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nlpagentchatbot%40nlpagent-vjxp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
