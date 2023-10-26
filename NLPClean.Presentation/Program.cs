@@ -25,6 +25,20 @@ builder.Services.AddDbContext<Context>(options =>
 builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
+
+
+//dependency injection lifetime.........
+//builder.Services.AddTransient<IDependencyInjectionService, DependencyInjectionService>();
+//builder.Services.AddTransient<IDependencyInjectionRepository, DependencyInjectionRepository>();
+builder.Services.AddScoped<IDependencyInjectionService, DependencyInjectionService>();
+builder.Services.AddScoped<IDependencyInjectionRepository, DependencyInjectionRepository>();
+//builder.Services.AddSingleton<IDependencyInjectionService, DependencyInjectionService>();
+//builder.Services.AddSingleton<IDependencyInjectionRepository, DependencyInjectionRepository>();
+//dependency injection lifetime.........
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
