@@ -17,23 +17,36 @@ builder.Services.AddSwaggerGen();
 
 ConfigurationManager configurationManager = builder.Configuration;
 
+/*
 builder.Services.AddDbContext<Context>(options =>
 {
     options.UseSqlServer(configurationManager.GetConnectionString("Development"));
 });
+*/
+
+
+var connectionString = configurationManager.GetConnectionString("Development");
+var optionsBuilder = new DbContextOptionsBuilder<Context>();
+optionsBuilder.UseSqlServer(connectionString);
+var dbContext = new Context(optionsBuilder.Options);
+builder.Services.AddSingleton<Context>(dbContext);
+
+
+
 
 builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
 
 
+
 //dependency injection lifetime.........
 //builder.Services.AddTransient<IDependencyInjectionService, DependencyInjectionService>();
 //builder.Services.AddTransient<IDependencyInjectionRepository, DependencyInjectionRepository>();
-builder.Services.AddScoped<IDependencyInjectionService, DependencyInjectionService>();
-builder.Services.AddScoped<IDependencyInjectionRepository, DependencyInjectionRepository>();
-//builder.Services.AddSingleton<IDependencyInjectionService, DependencyInjectionService>();
-//builder.Services.AddSingleton<IDependencyInjectionRepository, DependencyInjectionRepository>();
+//builder.Services.AddScoped<IDependencyInjectionService, DependencyInjectionService>();
+//builder.Services.AddScoped<IDependencyInjectionRepository, DependencyInjectionRepository>();
+builder.Services.AddSingleton<IDependencyInjectionRepository, DependencyInjectionRepository>();
+builder.Services.AddSingleton<IDependencyInjectionService, DependencyInjectionService>();
 //dependency injection lifetime.........
 
 

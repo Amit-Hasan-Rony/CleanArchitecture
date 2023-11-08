@@ -33,5 +33,44 @@ namespace NLPCleanArchitecture.Application
             return (await _iDependencyInjectionRepositoryScoped.GetAllPOSCounter());
         }
 
+
+        /*
+        public class HelperClass
+        {
+            public HelperClass() { 
+            
+            }
+            public int HelperClassDoSomething()
+            {
+                return 0;
+            }
+        }
+        public class MainClassAgain
+        {
+            private readonly HelperClass _helperClass1;
+            public MainClassAgain(HelperClass helperClass)
+            {
+                _helperClass1 = helperClass;
+            }
+
+            public void MainDoSomething()
+            {
+                var ans = _helperClass1.HelperClassDoSomething();
+                return;
+            }
+        }
+        public class MainClass
+        {
+            public MainClass() { }
+            public void MainDoSomething()
+            {
+                HelperClass helperClass = new HelperClass();
+                var ans = helperClass.HelperClassDoSomething();
+                return;
+            }
+        }
+        */
+        
+
     }
 }
